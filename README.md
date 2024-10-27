@@ -92,9 +92,11 @@ Finally, we can now install Pynq, FINN-examples and Jupyter (please note to sour
 ```shell
 pip3 install pynq==3.0.1
 python3 -m pip install setuptools_scm==7.1.0 ipython==8.9.0
-pip3 install finn-examples --no-build-isolation
+# adapted for PYNQ-Z2:
+# pip3 install finn-examples --no-build-isolation
 # to install particular git branch:
 # pip3 install git+https://github.com/Xilinx/finn-examples.git@dev --no-build-isolation
+pip3 install git+https://github.com/jancumps/finn-examples@pynq-z2 --no-build-isolation
 python3 -m pip install jupyter==1.0.0
 ```
 
@@ -145,7 +147,7 @@ We welcome community contributions to add more examples to this repo!
 
 `finn-examples` provides pre-built FPGA bitfiles for the following boards:
 
-* **Edge:** Pynq-Z1, Ultra96 and ZCU104
+* **Edge:** Pynq-Z1, Pynq-Z2, Ultra96 and ZCU104
 * **Datacenter:** Alveo U250
 
 It's possible to generate Vivado IP for the provided examples to target *any*
