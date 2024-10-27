@@ -45,7 +45,7 @@ models = [
 ]
 
 # which platforms to build the networks for
-zynq_platforms = ["Pynq-Z1", "Ultra96", "ZCU104"]
+zynq_platforms = ["Pynq-Z1", "Pynq-Z2", "Ultra96", "ZCU104"]
 alveo_platforms = ["U250"]
 platforms_to_build = zynq_platforms + alveo_platforms
 
