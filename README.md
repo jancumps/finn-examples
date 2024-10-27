@@ -92,6 +92,7 @@ Finally, we can now install Pynq, FINN-examples and Jupyter (please note to sour
 ```shell
 pip3 install pynq==3.0.1
 python3 -m pip install setuptools_scm==7.1.0 ipython==8.9.0
+
 # adapted for PYNQ-Z2:
 # pip3 install finn-examples --no-build-isolation
 # to install particular git branch:
