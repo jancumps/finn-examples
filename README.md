@@ -64,6 +64,7 @@ Install the `finn-examples` package using `pip`:
 pip3 install finn-examples --no-build-isolation
 # to install particular git branch:
 # pip3 install git+https://github.com/Xilinx/finn-examples.git@dev --no-build-isolation
+# pip3 install git+https://github.com/jancumps/finn-examples.git@pynq-z2 --no-build-isolation
 ```
 
 Retrieve the example Jupyter notebooks using the PYNQ get-notebooks command. An example of how to run the Jupyter notebook server, assuming we are forwarding port 8888 from the target to some port on our local machine, is also shown below:
